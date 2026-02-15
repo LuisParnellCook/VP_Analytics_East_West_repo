@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    CAR   R-squared:                       0.013
+Model:                            OLS   Adj. R-squared:                 -0.007
+Method:                 Least Squares   F-statistic:                    0.6398
+Date:                Sat, 14 Feb 2026   Prob (F-statistic):              0.670
+Time:                        12:25:34   Log-Likelihood:                 684.17
+No. Observations:                 248   AIC:                            -1356.
+Df Residuals:                     242   BIC:                            -1335.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+Intercept          0.0015      0.003      0.480      0.632      -0.005       0.007
+C(Regime)[T.1]    -0.0052      0.006     -0.803      0.423      -0.018       0.007
+C(Regime)[T.2]    -0.0043      0.004     -1.082      0.280      -0.012       0.004
+Surprise           0.0028      0.010      0.283      0.777      -0.017       0.023
+VIX             6.512e-05      0.000      0.390      0.697      -0.000       0.000
+D10Y              -0.0002      0.009     -0.020      0.984      -0.017       0.017
+==============================================================================
+Omnibus:                       24.801   Durbin-Watson:                   2.040
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              111.380
+Skew:                          -0.073   Prob(JB):                     6.52e-25
+Kurtosis:                       6.280   Cond. No.                         214.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
