@@ -1,0 +1,14 @@
+appl.csv	-APPL data file download Yahoo Finance (https://uk.finance.yahoo.com/)
+googl.csv	-GOOGL data file download Yahoo Finance (https://uk.finance.yahoo.com/)
+nvda.csv	-NVDA data file download Yahoo Finance (https://uk.finance.yahoo.com/)
+
+cpi.csv 	-Consumer Price Index data file download from Federal Reserve Bank of St. Louis (https://fred.stlouisfed.org/series/CPIAUCSL)
+gdp.csv		-Gross Domestic Product (GDP) data file download from Federal Reserve Bank of St. Louis (https://fred.stlouisfed.org/)
+inflation.csv    -Inflation Rate data file  download from Federal Reserve Bank of St. Louis (https://fred.stlouisfed.org/)
+interest.csv     -Interest Rate data file download from FRED (Federal Reserve Economic Data)
+unemployment.csv -Unemployment Rate data file download from Office for National Statistics (ONS)
+
+date_df.csv	 -dummy date file for merging data files
+
+
+
